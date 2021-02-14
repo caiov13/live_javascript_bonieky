@@ -17,7 +17,7 @@ Slider de imagens com botões para avançar e voltar.
 
 # Validação de formulário
 
-Formulário que ao ser enviado o próprio navegador válida os dados. Caso os dados não sejam preenchidos corretamente são mostradas mensagens de erro para o usuário.
+Formulário que ao ser enviado o próprio navegador válida os dados, caso os dados não sejam preenchidos corretamente são mostradas mensagens de erro para o usuário.
 
 ## Veja:
 
