@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #333333;
+}
+
+ /* header para caber as imagens =============== */
+header {
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+}
+
+ /* itens no header ========== */
+.header {
+    display: flex;
+    align-items: center;
+
+    padding: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+li:hover{
+    color: #73C2BE;
+}
+
+button {
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+    font-weight: bold;
+    letter-spacing: 3px;
+
+    background-color: #73C2BE;
+
+    transition: .3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.slider {
+    flex: 1;
+    overflow: hidden;
+}
+
+.slider-width {
+    height: 100%;
+    display: flex;
+    transition: all ease .3s;
+}
+
+.slider-item {
+    width: 100vw;
+    height: inherit;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: whitesmoke;
+    text-shadow: 0px 1px 1px #333;
+
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+}
+
+ /* controles ============== */
+ .slider-controls {
+     position: absolute;
+     z-index: 99;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .slider-control {
+     font-size: 30px;
+     color: whitesmoke;
+     overflow: hidden;
+     cursor: pointer;
+
+     padding: 10px;
+ }
